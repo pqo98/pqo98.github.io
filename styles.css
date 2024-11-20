@@ -1,21 +1,57 @@
 @import url();
 
 body { 
-	font-family: Arial, sans-serif; 
+	font-family: 'arial', sans-serif; 
 	line-height: 1.6; 
 	margin: 0; 
 	padding: 20px; 
-	background-color: #0f0f10; 
+	background-color: #ffffee;
+	color: #333333;
+
+	max-width: 800px;
+	margin: 0;
 } 
 
-h1 { 
-	color: #FFFFFF; 
-} 
-
-h2 {
-	color:#FFFFFF
+h1 {
+	color: #000000;font-size: 1.5em;
+	border-bottom: 1px solid #000000;
+	margin-top: 1.75em;
+	margin-bottom: 0em;
 }
 
-p { 
-	color: #C0C0C0; 
+h2 {
+	font-size: 1.25em;
+	margin-top: 1.25em;
+	margin-bottom: 0em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+.experience-item {
+	margin-bottom: 100px;
+}
+
+.experience-description {
+	line-height: 1.4;
+	margin: 0.5em 0;
+}
+
+.company-name {
+	font-weight: bold;
+}
+
+.job-duration {
+	font-style: italic;
+	color: #333333;
+}
+
+a {
+	color:#000000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: dodgerblue;
 }
