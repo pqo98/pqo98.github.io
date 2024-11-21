@@ -1,7 +1,5 @@
-@import url();
-
 body { 
-	font-family: 'arial', sans-serif; 
+	font-family: 'Geist Mono', sans-serif; 
 	line-height: 1.6; 
 	margin: 0; 
 	padding: 20px; 
@@ -13,19 +11,20 @@ body {
 } 
 
 h1 {
-	color: #000000;font-size: 1.5em;
+	color: #000000;font-size: 2em;
 	border-bottom: 1px solid #000000;
 	margin-top: 1.75em;
 	margin-bottom: 0em;
 }
 
 h2 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin-top: 1.25em;
 	margin-bottom: 0em;
 }
 
 p {
+	font-size: 0.9em;
 	margin-bottom: 1em;
 }
 
@@ -39,6 +38,7 @@ p {
 }
 
 .company-name {
+	font-size: 1em;
 	font-weight: bold;
 }
 
