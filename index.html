@@ -3,81 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>peteostrow</title>
+    <title>Peter Ostrowski</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Peter Ostrowski</a>
+    <header>
+        <nav class="navbar">
+            <a href="/" class="logo">Peter Ostrowski</a> <!-- Link to home -->
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#notes">Notes</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section id="about">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p>Transitioning to a career in tech.</p>
         </section>
 
-        <div class="section-break"></div>
-
         <section id="experience">
-            <h1 class="section-heading">Experience</h1>
-            <div class="ljtp-tac">
-                <table class="table-style">
-                    <tr class="experience-item">
-                        <td>
-                            <h2>Talent Acquisition Consultant</h2>
-                            <p><span class="company-name"><a href="https://lucasjamestalent.com">Lucas James Talent Partners</a></span> | <span class="job-duration">Nov 2021 - Present</span></p>
-                            <p class="experience-description">Engage with clients across various industries to create tailored recruiting solutions.</p>
-                            <p class="experience-description">Leverage tech to manage end-to-end recruitment.</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+            <h2>Experience</h2>
+            <article class="experience-item">
+                <h3>Talent Acquisition Consultant</h3>
+                <p><span class="company-name"><a href="https://lucasjamestalent.com">Lucas James Talent Partners</a></span> | <span class="job-duration">Nov 2021 - Present</span></p>
+                <p class="experience-description">Engage with clients across various industries to create tailored recruiting solutions.</p>
+                <p class="experience-description">Leverage tech to manage end-to-end recruitment.</p>
+            </article>
 
-            <div class="ljtp-tas">
-                <table class="table-style">
-                    <tr class="experience-item">
-                        <td>
-                            <h2>Talent Acquisition Specialist</h2>
-                            <p><span class="company-name"><a href="https://lucasjamestalent.com">Lucas James Talent Partners</a></span> | <span class="job-duration">May 2021 - Nov 2021</span></p>
-                            <p class="experience-description">Partnered with Talent Acquisition Consultants to create to develop outreach strategies for clients</p>
-                            <p class="experience-description">Streamlined recruiting and outreach processes.</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+            <article class="experience-item">
+                <h3>Talent Acquisition Specialist</h3>
+                <p><span class="company-name"><a href="https://lucasjamestalent.com">Lucas James Talent Partners</a></span> | <span class="job-duration">May 2021 - Nov 2021</span></p>
+                <p class="experience-description">Partnered with Talent Acquisition Consultants to create outreach strategies for clients.</p>
+                <p class="experience-description">Streamlined recruiting and outreach processes.</p>
+            </article>
 
-            <div class="clear-intern">
-                <table class="table-style">
-                    <tr class="experience-item">
-                        <td>
-                            <h2>Job</h2>
-                            <p><span class="company-name"><a href="<!--insert link-->">Company</a></span> | <span class="job-duration">Start - End</span></p>
-                            <p class="experience-description">Description</p>
-                            <p class="experience-description">Description</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="clear-intern">
-                <table class="table-style">
-                    <tr class="experience-item">
-                        <td>
-                            <h2>Job</h2>
-                            <p><span class="company-name"><a href="<!--insert link-->">Company</a></span> | <span class="job-duration">Start - End</span></p>
-                            <p class="experience-description">Description</p>
-                            <p class="experience-description">Description</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
+            <!-- Add more experience items as needed -->
         </section>
     </main>
 </body>
