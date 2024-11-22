@@ -1,6 +1,7 @@
 body { 
     font-family: 'Geist Mono', sans-serif; 
-    line-height: 1.6; 
+    font-size: 16px;
+    line-height: 1.4; 
     margin: 0 auto; /* Center the content */
     padding: 20px; 
     background-color: #ffffee;
@@ -17,7 +18,7 @@ body {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-decoration: none;
     color: #000000;
 }
@@ -25,7 +26,6 @@ body {
 .nav-links {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 .nav-links li {
@@ -38,22 +38,30 @@ body {
     color: #000000;
 }
 
-h2 {
-    font-size: 1.5em;
+h1 {
+    font-size: 1.25em;
     margin-top: 1.25em;
     margin-bottom: 0.5em;
-    color: #000000;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
-    font-size: 1.2em;
-    margin-top: 1em;
-    margin-bottom: 0.25em;
+    font-size: 0.8em;
 }
 
 p {
-    font-size: 0.9em;
-    margin-bottom: 1em;
+    font-size: 0.6em;
+}
+
+.divider {
+    height: 0.1px; 
+    background-color: #333333; 
+    margin: 20px 0;
 }
 
 .experience-item {
@@ -62,17 +70,14 @@ p {
 
 .experience-description {
     line-height: 1.4;
-    margin: 0.5em 0;
 }
 
 .company-name {
-    font-size: 1em;
     font-weight: bold;
 }
 
 .job-duration {
     font-style: italic;
-    color: #666666;
 }
 
 a {
@@ -82,4 +87,14 @@ a {
 
 a:hover {
     color: dodgerblue;
+    transition: color 0.3s;
+}
+
+.social-links h2 {
+    margin-bottom: 10px;
+}
+
+.social-links ul li {
+    margin-top: 0;
+    font-size: 0.8em;
 }
