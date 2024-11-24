@@ -1,5 +1,6 @@
 body { 
-    font-family: 'Geist Mono', sans-serif; 
+    font-family: 'Geist Mono', sans-serif;
+    font-size: 24px; 
     line-height: 1.4; 
     margin: 0 auto; /* Center the content */
     padding: 20px; 
@@ -96,4 +97,14 @@ a:hover {
 .social-links ul li {
     margin-top: 0;
     font-size: 0.8em;
+}
+
+.article-name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.user-name {
+    font-style: italic;
+    font-weight: bold;
 }
